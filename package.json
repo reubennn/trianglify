@@ -1,0 +1,31 @@
+{
+  "name": "trianglify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create:svg": "babel-node scripts/createSVG.js",
+    "create:png": "babel-node scripts/createPNG.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qrohlf/trianglify.git"
+  },
+  "author": "qrohlf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qrohlf/trianglify/issues"
+  },
+  "homepage": "https://github.com/qrohlf/trianglify#readme",
+  "dependencies": {
+    "trianglify": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
+    "eslint": "^7.20.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.1.0"
+  }
+}
